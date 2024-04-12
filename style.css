@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;    
+    align-items: center; 
+    height: 100vh;
+    width: 100vw;
+    margin: 0; 
+}
+
+#header {
+    display: flex;
+    flex-direction: column;    
+    align-items: center; 
+    padding: 20px;
+    width: 100%;
+    background-color: grey;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.displayLocation {
+    font-size: xx-large;
+}
+
+.info {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.displayCard, .weatherCard{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(52, 185, 226);
+    padding: 10px;
+    border-radius: 5px;
+    gap: 5px;
+    margin: 2px;
+  
+}
+
+#celcius {
+    font-size: medium;
+    color:rgb(97, 0, 0);
+    margin: 4px;   
+}
+
+#celcius:hover {
+    color:  rgb(52, 185, 226);
+    cursor: help;
+}
+
+#intake {
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.display {
+    background-color: aquamarine;
+}
+
+#submitted {
+    font-size: large;
+    background-color: rgb(116, 194, 116);    
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 10%;
+}
+
+#submitted:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
